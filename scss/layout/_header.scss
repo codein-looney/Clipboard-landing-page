@@ -1,0 +1,14 @@
+header {
+    padding-top: 7rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    outline: 1px solid red; // REMOVE
+
+    .header-content {
+
+    }
+}
