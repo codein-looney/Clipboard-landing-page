@@ -1,0 +1,25 @@
+@use '../sass-utils/variables' as *;
+
+.btn {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+
+    .btn-primary {
+        width: 15%;
+        padding: 1.2em;
+        border-radius: 2em;
+        border: none;
+        color: white;
+
+        &:nth-child(1) {
+            background-color: $Strong-Cyan;
+            border-bottom: 3px solid hsla(171, 81%, 19%, 0.323);
+        }
+
+        &:nth-child(2) {
+            background-color: $Light-Blue;
+            border-bottom: 3px solid hsla(234, 69%, 29%, 0.358);
+        }
+    }
+}

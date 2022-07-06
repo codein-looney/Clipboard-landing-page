@@ -1,14 +1,32 @@
+@use '../sass-utils/variables' as *;
+
 header {
-    padding-top: 7rem;
+    padding-top: 8rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     background-image: url(/images/bg-header-desktop.png);
     background-repeat: no-repeat;
+    background-size: contain;
     outline: 1px solid red; // REMOVE
+    gap: 2.3em;
 
     .header-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
 
+        .header-title {
+            font-size: 2.9em;
+            color: $Dark-Grayish-Blue;
+        }
+
+        .header-sub {
+            margin: 0 auto;
+            max-width: 50%;
+            line-height: 1.5em;
+            color: $Grayish-Blue;
+        }
     }
 }

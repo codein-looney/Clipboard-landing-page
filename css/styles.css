@@ -13,15 +13,53 @@ p {
   font-size: 18px;
 }
 
+.btn {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.btn .btn-primary {
+  width: 15%;
+  padding: 1.2em;
+  border-radius: 2em;
+  border: none;
+  color: white;
+}
+.btn .btn-primary:nth-child(1) {
+  background-color: hsl(171deg, 66%, 44%);
+  border-bottom: 3px solid hsla(171deg, 81%, 19%, 0.323);
+}
+.btn .btn-primary:nth-child(2) {
+  background-color: hsl(233deg, 100%, 69%);
+  border-bottom: 3px solid hsla(234deg, 69%, 29%, 0.358);
+}
+
 header {
-  padding-top: 7rem;
+  padding-top: 8rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   background-image: url(/images/bg-header-desktop.png);
   background-repeat: no-repeat;
+  background-size: contain;
   outline: 1px solid red;
+  gap: 2.3em;
+}
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+header .header-content .header-title {
+  font-size: 2.9em;
+  color: hsl(210deg, 10%, 33%);
+}
+header .header-content .header-sub {
+  margin: 0 auto;
+  max-width: 50%;
+  line-height: 1.5em;
+  color: hsl(201deg, 11%, 66%);
 }
 
 /*# sourceMappingURL=styles.css.map */
