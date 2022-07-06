@@ -24,6 +24,10 @@ p {
   border-radius: 2em;
   border: none;
   color: white;
+  cursor: pointer;
+}
+.btn .btn-primary:hover {
+  opacity: 0.8;
 }
 .btn .btn-primary:nth-child(1) {
   background-color: hsl(171deg, 66%, 44%);
@@ -32,6 +36,24 @@ p {
 .btn .btn-primary:nth-child(2) {
   background-color: hsl(233deg, 100%, 69%);
   border-bottom: 3px solid hsla(234deg, 69%, 29%, 0.358);
+}
+
+main .info-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+}
+main .info-1 .info-1-title {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+}
+main .info-1 .info-1-sub {
+  margin: 0 auto;
+  max-width: 50%;
+  line-height: 2rem;
+  color: hsl(201deg, 11%, 66%);
 }
 
 header {
@@ -43,7 +65,6 @@ header {
   background-image: url(/images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain;
-  outline: 1px solid red;
   gap: 2.3em;
 }
 header .header-content {
@@ -52,7 +73,7 @@ header .header-content {
   gap: 1em;
 }
 header .header-content .header-title {
-  font-size: 2.9em;
+  font-size: 2.9rem;
   color: hsl(210deg, 10%, 33%);
 }
 header .header-content .header-sub {

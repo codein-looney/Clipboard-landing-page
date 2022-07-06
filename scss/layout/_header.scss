@@ -9,7 +9,6 @@ header {
     background-image: url(/images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
-    outline: 1px solid red; // REMOVE
     gap: 2.3em;
 
     .header-content {
@@ -18,7 +17,7 @@ header {
         gap: 1em;
 
         .header-title {
-            font-size: 2.9em;
+            font-size: 2.9rem;
             color: $Dark-Grayish-Blue;
         }
 

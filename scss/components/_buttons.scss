@@ -11,6 +11,11 @@
         border-radius: 2em;
         border: none;
         color: white;
+        cursor: pointer;
+
+        &:hover {
+            opacity: .8;
+        }
 
         &:nth-child(1) {
             background-color: $Strong-Cyan;
