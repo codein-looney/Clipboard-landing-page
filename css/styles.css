@@ -56,6 +56,17 @@ main .info-1 .info-1-sub {
   color: hsl(201deg, 11%, 66%);
 }
 
+main .banner {
+  display: flex;
+  padding-top: 3em;
+  outline: 1px solid red;
+}
+main .banner .banner-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
 header {
   padding-top: 8rem;
   height: 100vh;

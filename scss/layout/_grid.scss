@@ -19,3 +19,15 @@ main .info-1 {
         color: $Grayish-Blue;
     }
 }
+
+main .banner {
+    display: flex;
+    padding-top: 3em;
+    outline: 1px solid red;
+
+    .banner-info {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+}
