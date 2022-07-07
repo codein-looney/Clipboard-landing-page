@@ -1,18 +1,18 @@
 @use '../sass-utils/variables' as *;
 
-main .info-1 {
+main .info-1, .info-2 {
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 1rem;
 
-    .info-1-title {
+    .info-1-title, .info-2-title {
         font-size: 2.3rem;
         font-weight: 600;
         color: $Dark-Grayish-Blue;
     }
 
-    .info-1-sub {
+    .info-1-sub, .info-2-sub {
         margin: 0 auto;
         max-width: 50%;
         line-height: 2rem;
@@ -20,14 +20,15 @@ main .info-1 {
     }
 }
 
+
 main .banner {
     display: flex;
-    padding-top: 5rem;
+    padding: 6rem 0;
     gap: 2em;
 
     .comp {
         width: 55%;
-        height: auto;
+        height: 100%;
         transform: translateX(-10%);
     }
 
