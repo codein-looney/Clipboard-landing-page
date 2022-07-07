@@ -42,7 +42,7 @@ main .info-1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 1em;
+  gap: 1rem;
 }
 main .info-1 .info-1-title {
   font-size: 2.3rem;
@@ -58,19 +58,24 @@ main .info-1 .info-1-sub {
 
 main .banner {
   display: flex;
-  padding-top: 3em;
-  outline: 1px solid red;
+  padding-top: 5rem;
+  gap: 2.5rem;
 }
 main .banner .comp {
   width: 50%;
   height: auto;
   transform: translateX(-10%);
 }
-main .banner .banner-info {
+main .banner .banner-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 2em;
+  justify-content: center;
+}
+main .banner .banner-content .banner-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
   outline: 1px solid red;
 }
 

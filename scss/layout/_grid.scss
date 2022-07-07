@@ -4,7 +4,7 @@ main .info-1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 1em;
+    gap: 1rem;
 
     .info-1-title {
         font-size: 2.3rem;
@@ -22,9 +22,9 @@ main .info-1 {
 
 main .banner {
     display: flex;
-    padding-top: 3em;
-    outline: 1px solid red;
-    // gap: 5em; // TEST
+    padding-top: 5rem;
+    gap: 2.5rem; // TEST
+
 
     .comp {
         width: 50%;
@@ -32,12 +32,19 @@ main .banner {
         transform: translateX(-10%);
     }
 
-    .banner-info {
+    .banner-content {
         display: flex;
         flex-direction: column;
-        justify-content: center;  // TEST 
         gap: 2em;
+        // align-items: center;
+        justify-content: center;
 
-        outline: 1px solid red; // REMOVE
+        .banner-info {
+            display: flex;
+            flex-direction: column;
+            line-height: 2rem;
+    
+            outline: 1px solid red; // REMOVE
+        }
     }
 }
