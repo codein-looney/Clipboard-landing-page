@@ -59,6 +59,7 @@ main .info-1 .info-1-sub {
 main .banner {
   display: flex;
   padding-top: 5rem;
+  gap: 2em;
 }
 main .banner .comp {
   width: 55%;
