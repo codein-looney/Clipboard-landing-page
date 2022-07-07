@@ -24,10 +24,20 @@ main .banner {
     display: flex;
     padding-top: 3em;
     outline: 1px solid red;
+    // gap: 5em; // TEST
+
+    .comp {
+        width: 50%;
+        height: auto;
+        transform: translateX(-10%);
+    }
 
     .banner-info {
         display: flex;
         flex-direction: column;
+        justify-content: center;  // TEST 
         gap: 2em;
+
+        outline: 1px solid red; // REMOVE
     }
 }

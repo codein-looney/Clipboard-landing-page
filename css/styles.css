@@ -61,10 +61,17 @@ main .banner {
   padding-top: 3em;
   outline: 1px solid red;
 }
+main .banner .comp {
+  width: 50%;
+  height: auto;
+  transform: translateX(-10%);
+}
 main .banner .banner-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2em;
+  outline: 1px solid red;
 }
 
 header {
