@@ -23,11 +23,9 @@ main .info-1 {
 main .banner {
     display: flex;
     padding-top: 5rem;
-    gap: 2.5rem; // TEST
-
 
     .comp {
-        width: 50%;
+        width: 55%;
         height: auto;
         transform: translateX(-10%);
     }
@@ -35,16 +33,24 @@ main .banner {
     .banner-content {
         display: flex;
         flex-direction: column;
-        gap: 2em;
-        // align-items: center;
-        justify-content: center;
+        gap: 3.3em;
+        transform: translateY(16%);
+        max-width: 24%;
+
+        .banner-title {
+            color: $Dark-Grayish-Blue;
+        }
+
+        .banner-sub {
+            font-size: 1rem;
+            color: $Grayish-Blue;
+        }
+
 
         .banner-info {
             display: flex;
             flex-direction: column;
             line-height: 2rem;
-    
-            outline: 1px solid red; // REMOVE
         }
     }
 }

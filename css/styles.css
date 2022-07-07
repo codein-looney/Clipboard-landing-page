@@ -59,24 +59,30 @@ main .info-1 .info-1-sub {
 main .banner {
   display: flex;
   padding-top: 5rem;
-  gap: 2.5rem;
 }
 main .banner .comp {
-  width: 50%;
+  width: 55%;
   height: auto;
   transform: translateX(-10%);
 }
 main .banner .banner-content {
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  justify-content: center;
+  gap: 3.3em;
+  transform: translateY(16%);
+  max-width: 24%;
+}
+main .banner .banner-content .banner-title {
+  color: hsl(210deg, 10%, 33%);
+}
+main .banner .banner-content .banner-sub {
+  font-size: 1rem;
+  color: hsl(201deg, 11%, 66%);
 }
 main .banner .banner-content .banner-info {
   display: flex;
   flex-direction: column;
   line-height: 2rem;
-  outline: 1px solid red;
 }
 
 header {
