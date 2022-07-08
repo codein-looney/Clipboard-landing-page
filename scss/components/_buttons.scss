@@ -20,14 +20,14 @@
         &:nth-child(1) {
             background-color: $Strong-Cyan;
             border-bottom: 3px solid hsla(171, 81%, 19%, 0.323);
-            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+            box-shadow: rgba(38, 186, 164) 0px 25px 20px -20px;
 
         }
 
         &:nth-child(2) {
             background-color: $Light-Blue;
             border-bottom: 3px solid hsla(234, 69%, 29%, 0.358);
-            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+            box-shadow: rgba(97, 115, 255) 0px 25px 20px -20px;
         }
     }
 }

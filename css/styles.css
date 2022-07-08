@@ -33,12 +33,12 @@ p {
 .btn .btn-primary:nth-child(1) {
   background-color: hsl(171deg, 66%, 44%);
   border-bottom: 3px solid hsla(171deg, 81%, 19%, 0.323);
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgb(38, 186, 164) 0px 25px 20px -20px;
 }
 .btn .btn-primary:nth-child(2) {
   background-color: hsl(233deg, 100%, 69%);
   border-bottom: 3px solid hsla(234deg, 69%, 29%, 0.358);
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgb(97, 115, 255) 0px 25px 20px -20px;
 }
 
 main .cta .cta-content, .cta-btn, .btn-secondary {
