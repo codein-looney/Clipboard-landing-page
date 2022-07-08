@@ -14,11 +14,34 @@
 
         .links {
             list-style-type: none;
+
+            li {
+                cursor: pointer;
+                transition: .3s;
+
+                &:hover {
+                    color: $Strong-Cyan;
+                }
+            }                   
         }
     }
 
     .footer-logo {
         width: 4%;
         transform: translateX(120%);
+    }
+
+    .socials {
+        display: inline-flex;
+        gap: 1rem;
+        font-size: 1.19rem;
+
+        i {
+            transition: .3s;
+
+            &:hover {
+                color: $Strong-Cyan;
+            }
+        }
     }
 }

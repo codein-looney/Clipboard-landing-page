@@ -69,9 +69,27 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
 .footer-primary .nav .links {
   list-style-type: none;
 }
+.footer-primary .nav .links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-primary .nav .links li:hover {
+  color: hsl(171deg, 66%, 44%);
+}
 .footer-primary .footer-logo {
   width: 4%;
   transform: translateX(120%);
+}
+.footer-primary .socials {
+  display: inline-flex;
+  gap: 1rem;
+  font-size: 1.19rem;
+}
+.footer-primary .socials i {
+  transition: 0.3s;
+}
+.footer-primary .socials i:hover {
+  color: hsl(171deg, 66%, 44%);
 }
 
 main .info-1, .info-2, .info-3 {
