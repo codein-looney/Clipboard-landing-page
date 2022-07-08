@@ -2,8 +2,14 @@
 
 .btn {
     display: flex;
-    gap: 1em;
+    gap: 1rem;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 
     .btn-primary {
         width: 15%;
@@ -28,6 +34,11 @@
             background-color: $Light-Blue;
             border-bottom: 3px solid hsla(234, 69%, 29%, 0.358);
             box-shadow: rgba(97, 115, 255) 0px 25px 20px -20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin: 0 auto;
+            width: 90%;
         }
     }
 }
