@@ -92,14 +92,27 @@ main .cta {
     height: 50vh;
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
 
+    outline: 1px solid red;
 
-    outline: 1px solid red; // REMOVE
 
     .cta-content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        outline: 1px solid red; // REMOVE
+        text-align: center;
+        gap: 1rem;
+
+        .cta-title {
+            font-size: 2rem;
+            color: $Dark-Grayish-Blue;
+        }
+
+        .cta-sub {
+            color: $Grayish-Blue;
+            max-width: 50%;
+            line-height: 2rem;
+        }
     }
 }

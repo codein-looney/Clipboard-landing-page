@@ -53,6 +53,22 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
   height: 100%;
 }
 
+.footer-primary {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.footer-primary .nav {
+  display: flex;
+  gap: 5rem;
+  line-height: 2.5rem;
+}
+.footer-primary .footer-logo {
+  width: 3%;
+}
+
 main .info-1, .info-2, .info-3 {
   display: flex;
   flex-direction: column;
@@ -133,13 +149,24 @@ main .cta {
   height: 50vh;
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
   outline: 1px solid red;
 }
 main .cta .cta-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  outline: 1px solid red;
+  text-align: center;
+  gap: 1rem;
+}
+main .cta .cta-content .cta-title {
+  font-size: 2rem;
+  color: hsl(210deg, 10%, 33%);
+}
+main .cta .cta-content .cta-sub {
+  color: hsl(201deg, 11%, 66%);
+  max-width: 50%;
+  line-height: 2rem;
 }
 
 header {

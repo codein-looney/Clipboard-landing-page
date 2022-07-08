@@ -1,0 +1,17 @@
+.footer-primary {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+    .nav {
+        display: flex;
+        gap: 5rem;
+        line-height: 2.5rem;
+    }
+
+    .footer-logo {
+        width: 3%;
+    }
+}
