@@ -11,6 +11,10 @@ header {
     background-size: contain;
     gap: 2.3em;
 
+    @media screen and (max-width: 768px) {
+        background-image: url(../images/bg-header-mobile.png);
+    }
+
     .header-content {
         display: flex;
         flex-direction: column;
