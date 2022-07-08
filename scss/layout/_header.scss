@@ -6,7 +6,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url(/images/bg-header-desktop.png);
+    background-image: url(./images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
     gap: 2.3em;
@@ -28,4 +28,13 @@ header {
             color: $Grayish-Blue;
         }
     }
+}
+
+main .flex-primary {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    outline: 1px solid red; // REMOVE
 }
