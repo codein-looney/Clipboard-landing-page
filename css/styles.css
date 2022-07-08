@@ -145,4 +145,10 @@ main .flex-primary .flex-box .flex-sub {
   line-height: 2rem;
 }
 
+main .flex-secondary {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
 /*# sourceMappingURL=styles.css.map */
