@@ -1,17 +1,24 @@
+@use '../sass-utils/variables' as *;
 .footer-primary {
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    background: #F5F6F8;
 
     .nav {
         display: flex;
-        gap: 5rem;
+        gap: 8rem;
         line-height: 2.5rem;
+
+        .links {
+            list-style-type: none;
+        }
     }
 
     .footer-logo {
-        width: 3%;
+        width: 4%;
+        transform: translateX(120%);
     }
 }

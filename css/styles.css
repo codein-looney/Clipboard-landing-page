@@ -40,7 +40,7 @@ p {
 
 main .cta .cta-content, .cta-btn, .btn-secondary {
   position: relative;
-  top: 50%;
+  top: 25%;
 }
 
 .cover {
@@ -59,14 +59,19 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
   align-items: center;
   justify-content: center;
   justify-content: space-around;
+  background: #F5F6F8;
 }
 .footer-primary .nav {
   display: flex;
-  gap: 5rem;
+  gap: 8rem;
   line-height: 2.5rem;
 }
+.footer-primary .nav .links {
+  list-style-type: none;
+}
 .footer-primary .footer-logo {
-  width: 3%;
+  width: 4%;
+  transform: translateX(120%);
 }
 
 main .info-1, .info-2, .info-3 {
@@ -146,11 +151,10 @@ main .flex-secondary {
 }
 
 main .cta {
-  height: 50vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  outline: 1px solid red;
 }
 main .cta .cta-content {
   display: flex;

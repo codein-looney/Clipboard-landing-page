@@ -89,13 +89,10 @@ main .flex-secondary {
 }
 
 main .cta {
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-
-    outline: 1px solid red;
-
 
     .cta-content {
         display: flex;
