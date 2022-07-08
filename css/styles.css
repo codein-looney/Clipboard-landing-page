@@ -124,11 +124,25 @@ header .header-content .header-sub {
 }
 
 main .flex-primary {
-  height: 30vh;
+  height: 50vh;
+  margin-bottom: 8rem;
   display: flex;
   align-items: center;
   text-align: center;
-  outline: 1px solid red;
+}
+main .flex-primary .flex-box {
+  margin: 0 auto;
+  max-width: 25%;
+  gap: 2rem;
+}
+main .flex-primary .flex-box .flex-title {
+  margin: 2rem 0 1rem 0;
+  color: hsl(210deg, 10%, 33%);
+}
+main .flex-primary .flex-box .flex-sub {
+  font-size: 1rem;
+  color: hsl(201deg, 11%, 66%);
+  line-height: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
