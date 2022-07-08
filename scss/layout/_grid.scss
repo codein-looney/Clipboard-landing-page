@@ -87,3 +87,19 @@ main .flex-secondary {
     justify-content: center;
     justify-content: space-around;
 }
+
+main .cta {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+
+    outline: 1px solid red; // REMOVE
+
+    .cta-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: 1px solid red; // REMOVE
+    }
+}
