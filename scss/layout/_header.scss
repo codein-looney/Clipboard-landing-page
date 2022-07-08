@@ -12,6 +12,7 @@ header {
     gap: 2.3em;
 
     @media screen and (max-width: 768px) {
+        padding-top: 7rem;
         background-image: url(../images/bg-header-mobile.png);
     }
 
@@ -23,13 +24,25 @@ header {
         .header-title {
             font-size: 2.9rem;
             color: $Dark-Grayish-Blue;
+
+            @media screen and (max-width: 768px) {
+                margin: 0 auto;
+                font-size: 2rem;
+                max-width: 90%;
+            }
         }
 
         .header-sub {
             margin: 0 auto;
             max-width: 50%;
-            line-height: 1.5em;
+            line-height: 1.5rem;
             color: $Grayish-Blue;
+
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+                font-size: 1rem;
+                line-height: 1.7rem;
+            }
         }
     }
 }
