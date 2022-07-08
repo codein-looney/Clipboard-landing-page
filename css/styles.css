@@ -102,7 +102,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(./images/bg-header-desktop.png);
+  background-image: url(../images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain;
   gap: 2.3em;
