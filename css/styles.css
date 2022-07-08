@@ -96,6 +96,34 @@ main .banner .banner-content .banner-info {
   line-height: 2rem;
 }
 
+main .flex-primary {
+  height: 50vh;
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+main .flex-primary .flex-box {
+  margin: 0 auto;
+  max-width: 25%;
+  gap: 2rem;
+}
+main .flex-primary .flex-box .flex-title {
+  margin: 2rem 0 1rem 0;
+  color: hsl(210deg, 10%, 33%);
+}
+main .flex-primary .flex-box .flex-sub {
+  font-size: 1rem;
+  color: hsl(201deg, 11%, 66%);
+  line-height: 2rem;
+}
+
+main .flex-secondary {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
 header {
   padding-top: 8rem;
   height: 100vh;
@@ -121,34 +149,6 @@ header .header-content .header-sub {
   max-width: 50%;
   line-height: 1.5em;
   color: hsl(201deg, 11%, 66%);
-}
-
-main .flex-primary {
-  height: 50vh;
-  margin-bottom: 8rem;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-main .flex-primary .flex-box {
-  margin: 0 auto;
-  max-width: 25%;
-  gap: 2rem;
-}
-main .flex-primary .flex-box .flex-title {
-  margin: 2rem 0 1rem 0;
-  color: hsl(210deg, 10%, 33%);
-}
-main .flex-primary .flex-box .flex-sub {
-  font-size: 1rem;
-  color: hsl(201deg, 11%, 66%);
-  line-height: 2rem;
-}
-
-main .flex-secondary {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
 }
 
 /*# sourceMappingURL=styles.css.map */
