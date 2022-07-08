@@ -80,7 +80,7 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
   color: hsl(171deg, 66%, 44%);
 }
 .footer-primary .footer-logo {
-  width: 4%;
+  width: 3.5%;
   transform: translateX(120%);
 }
 .footer-primary .socials {
