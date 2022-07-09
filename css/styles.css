@@ -119,11 +119,22 @@ main .info-1 .info-1-title, main .info-1 .info-2-title, main .info-1 .info-3-tit
   font-weight: 600;
   color: hsl(210deg, 10%, 33%);
 }
+@media screen and (max-width: 768px) {
+  main .info-1 .info-1-title, main .info-1 .info-2-title, main .info-1 .info-3-title, .info-2 .info-1-title, .info-2 .info-2-title, .info-2 .info-3-title, .info-3 .info-1-title, .info-3 .info-2-title, .info-3 .info-3-title {
+    font-size: 2rem;
+  }
+}
 main .info-1 .info-1-sub, main .info-1 .info-2-sub, main .info-1 .info-3-sub, .info-2 .info-1-sub, .info-2 .info-2-sub, .info-2 .info-3-sub, .info-3 .info-1-sub, .info-3 .info-2-sub, .info-3 .info-3-sub {
   margin: 0 auto;
   max-width: 50%;
   line-height: 2rem;
   color: hsl(201deg, 11%, 66%);
+}
+@media screen and (max-width: 768px) {
+  main .info-1 .info-1-sub, main .info-1 .info-2-sub, main .info-1 .info-3-sub, .info-2 .info-1-sub, .info-2 .info-2-sub, .info-2 .info-3-sub, .info-3 .info-1-sub, .info-3 .info-2-sub, .info-3 .info-3-sub {
+    max-width: 80%;
+    font-size: 1rem;
+  }
 }
 
 main .banner {
@@ -131,10 +142,23 @@ main .banner {
   padding: 6rem 0;
   gap: 2em;
 }
+@media screen and (max-width: 768px) {
+  main .banner {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+}
 main .banner .comp {
   width: 55%;
   height: 100%;
   transform: translateX(-10%);
+}
+@media screen and (max-width: 768px) {
+  main .banner .comp {
+    margin: 0 auto;
+    width: 82%;
+    transform: unset;
+  }
 }
 main .banner .banner-content {
   display: flex;
@@ -220,6 +244,7 @@ header {
 }
 @media screen and (max-width: 768px) {
   header {
+    height: 97vh;
     padding-top: 7rem;
     background-image: url(../images/bg-header-mobile.png);
   }
