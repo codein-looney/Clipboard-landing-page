@@ -99,10 +99,19 @@ main .flex-primary {
     align-items: center;
     text-align: center;
 
+    @media screen and (max-width: 768px) {
+        height: 100vh;
+        flex-direction: column;
+    }
+
     .flex-box {
         margin: 0 auto;
         max-width: 25%;
         gap: 2rem;
+
+        @media screen and (max-width: 768px) {
+            max-width: 85%;
+        }
 
         .flex-title {
             margin: 2rem 0 1rem 0;
