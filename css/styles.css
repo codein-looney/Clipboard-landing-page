@@ -167,6 +167,13 @@ main .banner .banner-content {
   transform: translateY(16%);
   max-width: 24%;
 }
+@media screen and (max-width: 768px) {
+  main .banner .banner-content {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+  }
+}
 main .banner .banner-content .banner-title {
   color: hsl(210deg, 10%, 33%);
 }

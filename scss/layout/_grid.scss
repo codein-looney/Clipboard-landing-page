@@ -60,6 +60,12 @@ main .banner {
         transform: translateY(16%);
         max-width: 24%;
 
+        @media screen and (max-width: 768px) {
+            margin: 0 auto;
+            max-width: 80%;
+            text-align: center;
+        }
+
         .banner-title {
             color: $Dark-Grayish-Blue;
         }
