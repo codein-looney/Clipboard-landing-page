@@ -216,6 +216,7 @@ main .flex-primary {
 }
 @media screen and (max-width: 768px) {
   main .flex-primary {
+    margin-top: 5.5rem;
     height: 100vh;
     flex-direction: column;
     gap: 4rem;

@@ -100,6 +100,7 @@ main .flex-primary {
     text-align: center;
 
     @media screen and (max-width: 768px) {
+        margin-top: 5.5rem;
         height: 100vh;
         flex-direction: column;
         gap: 4rem;
