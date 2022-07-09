@@ -60,13 +60,23 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
 }
 
 .cover {
-  padding: 5em 0 3em 0;
+  padding: 5rem 0 3rem 0;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 3.5em 0 6.5rem 0;
+  }
 }
 .cover .devices {
   width: 70%;
   height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .cover .devices {
+    width: 95%;
+  }
 }
 
 .footer-primary {
@@ -145,7 +155,7 @@ main .banner {
 @media screen and (max-width: 768px) {
   main .banner {
     flex-direction: column;
-    padding: 4rem 0;
+    padding: 4rem 0 16rem 0;
   }
 }
 main .banner .comp {
@@ -177,6 +187,11 @@ main .banner .banner-content {
 main .banner .banner-content .banner-title {
   color: hsl(210deg, 10%, 33%);
 }
+@media screen and (max-width: 768px) {
+  main .banner .banner-content .banner-title {
+    font-size: 1.5rem;
+  }
+}
 main .banner .banner-content .banner-sub {
   font-size: 1rem;
   color: hsl(201deg, 11%, 66%);
@@ -185,6 +200,11 @@ main .banner .banner-content .banner-info {
   display: flex;
   flex-direction: column;
   line-height: 2rem;
+}
+@media screen and (max-width: 768px) {
+  main .banner .banner-content .banner-info {
+    gap: 0.7rem;
+  }
 }
 
 main .flex-primary {
@@ -220,6 +240,11 @@ main .cta {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  main .cta {
+    height: 100vh;
+  }
 }
 main .cta .cta-content {
   display: flex;

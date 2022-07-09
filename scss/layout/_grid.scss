@@ -37,7 +37,7 @@ main .banner {
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        padding: 4rem 0;
+        padding: 4rem 0 16rem 0;
     }
 
     .comp {
@@ -68,6 +68,10 @@ main .banner {
 
         .banner-title {
             color: $Dark-Grayish-Blue;
+
+            @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+            }
         }
 
         .banner-sub {
@@ -80,6 +84,10 @@ main .banner {
             display: flex;
             flex-direction: column;
             line-height: 2rem;
+
+            @media screen and (max-width: 768px) {
+                gap: .7rem;
+            }
         }
     }
 }
@@ -120,6 +128,10 @@ main .cta {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+
+    @media screen and (max-width: 768px) {
+        height: 100vh;
+    }
 
     .cta-content {
         display: flex;

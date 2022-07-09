@@ -1,10 +1,18 @@
 .cover {
-    padding: 5em 0 3em 0;
+    padding: 5rem 0 3rem 0;
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        padding: 3.5em 0 6.5rem 0;
+    }
 
     .devices {
         width: 70%;
         height: 100%;
+
+        @media screen and (max-width: 768px) {
+            width: 95%;
+        }
     }
 }
