@@ -59,6 +59,12 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
   top: 25%;
 }
 
+@media screen and (max-width: 768px) {
+  .cta .btn-secondary {
+    width: 80%;
+  }
+}
+
 .cover {
   padding: 5rem 0 3rem 0;
   display: flex;
@@ -290,10 +296,22 @@ main .cta .cta-content .cta-title {
   font-size: 2rem;
   color: hsl(210deg, 10%, 33%);
 }
+@media screen and (max-width: 768px) {
+  main .cta .cta-content .cta-title {
+    font-size: 1.5rem;
+    max-width: 70%;
+  }
+}
 main .cta .cta-content .cta-sub {
   color: hsl(201deg, 11%, 66%);
   max-width: 50%;
   line-height: 2rem;
+}
+@media screen and (max-width: 768px) {
+  main .cta .cta-content .cta-sub {
+    max-width: 70%;
+    font-size: 1rem;
+  }
 }
 
 header {

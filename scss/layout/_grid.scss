@@ -174,13 +174,23 @@ main .cta {
 
         .cta-title {
             font-size: 2rem;
-            color: $Dark-Grayish-Blue;
+            color: $Dark-Grayish-Blue; 
+
+            @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+                max-width: 70%;
+            }
         }
 
         .cta-sub {
             color: $Grayish-Blue;
             max-width: 50%;
             line-height: 2rem;
+
+            @media screen and (max-width: 768px) {
+                max-width: 70%;
+                font-size: 1rem;
+            }
         }
     }
 }

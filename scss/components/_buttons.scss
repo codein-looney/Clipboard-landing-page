@@ -47,3 +47,9 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
     position: relative;
     top: 25%;
 }
+
+.cta .btn-secondary {
+    @media screen and (max-width: 768px) {
+        width: 80%;
+    }
+}
