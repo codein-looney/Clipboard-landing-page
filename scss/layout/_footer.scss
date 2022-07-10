@@ -7,13 +7,32 @@
     justify-content: space-around;
     background: #F5F6F8;
 
+    @media screen and (max-width: 768px) {
+        height: 80vh;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 7rem;
+    }
+
     .nav {
         display: flex;
         gap: 8rem;
         line-height: 2.5rem;
 
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            text-align: center;
+            gap: 0;
+        }
+
         .links {
             list-style-type: none;
+
+            .link {
+                @media screen and (max-width: 768px) {
+                    padding-bottom: 1.5rem;
+                }
+            }
 
             li {
                 cursor: pointer;
@@ -27,8 +46,24 @@
     }
 
     .footer-logo {
-        width: 3.5%;
+        width: auto;
         transform: translateX(120%);
+
+        @media screen and (max-width: 768px) {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            transform: unset;        }
+
+        .fl {
+            width: 40%;
+
+            @media screen and (max-width: 768px) {
+                width: 15%;
+            transform: translateY(120%);
+            }
+        }
+    
     }
 
     .socials {
