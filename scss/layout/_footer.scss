@@ -59,7 +59,7 @@
             width: 40%;
 
             @media screen and (max-width: 768px) {
-                width: 15%;
+                width: 10%;
             transform: translateY(120%);
             }
         }
@@ -69,7 +69,13 @@
     .socials {
         display: inline-flex;
         gap: 1rem;
-        font-size: 1.19rem;
+        font-size: 1.2rem;
+        color: #4E545B;
+
+        @media screen and (max-width: 768px) {
+            transform: translateY(-500%);
+            gap: 2rem;
+        }
 
         i {
             transition: .3s;

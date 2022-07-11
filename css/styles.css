@@ -145,14 +145,21 @@ main .cta .cta-content, .cta-btn, .btn-secondary {
 }
 @media screen and (max-width: 768px) {
   .footer-primary .footer-logo .fl {
-    width: 15%;
+    width: 10%;
     transform: translateY(120%);
   }
 }
 .footer-primary .socials {
   display: inline-flex;
   gap: 1rem;
-  font-size: 1.19rem;
+  font-size: 1.2rem;
+  color: #4E545B;
+}
+@media screen and (max-width: 768px) {
+  .footer-primary .socials {
+    transform: translateY(-500%);
+    gap: 2rem;
+  }
 }
 .footer-primary .socials i {
   transition: 0.3s;
